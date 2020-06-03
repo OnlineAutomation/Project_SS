@@ -76,7 +76,7 @@ public class insert extends setup
 		action.moveToElement(driver.findElement(By.id("ClassSectionIdList_chosen"))).click().sendKeys(Keys.ENTER).build().perform();
 		action.moveToElement(driver.findElement(By.id("SubjectId"))).click().sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
 		
-		
+		//System
 		
 		
 	}
